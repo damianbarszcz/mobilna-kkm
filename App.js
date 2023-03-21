@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { BottomNavbar } from '../app/src/components/Navbar';
 
 export default function App() {
   return (
@@ -27,6 +28,8 @@ export default function App() {
       <Text>Transakcja zakończona pomyślnie - nie wymaga zapisu na nośniku plastikowym</Text>
 
 
+     
+      
       <StatusBar style="auto" />
     </View>
   );
